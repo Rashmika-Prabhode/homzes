@@ -177,7 +177,7 @@ class _SearchAndCatalog3State extends State<SearchAndCatalog3> {
                                   ),
                                   const Text(
                                     " / mo",
-                                    style: const TextStyle(
+                                    style: TextStyle(
                                       fontSize: 20,
                                       fontWeight: FontWeight.w700,
                                       color: AppColors.black,
