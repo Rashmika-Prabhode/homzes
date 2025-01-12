@@ -1,6 +1,6 @@
 # homzes
 
-A new Flutter project. flutter version 3.22.0
+Visionex digital assesment project. flutter version 3.22.0
 
 ## Getting Started
 
