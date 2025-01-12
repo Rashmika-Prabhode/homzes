@@ -8,10 +8,8 @@ import 'package:homzes/utils/log_util.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp();
   FirebaseApp firebaseApp = await Firebase.initializeApp();
   printLog("Firebase initialized: ${firebaseApp.name}");
-  await Future.delayed(Duration(seconds: 2));
   runApp(
     BlocProvider(
       create: (_) => PropertyCubit()..fetchProperties(),

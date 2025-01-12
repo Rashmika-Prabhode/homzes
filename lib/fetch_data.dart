@@ -8,9 +8,7 @@ class FetchData {
       String collectionName) async {
     try {
       final querySnapshot = await _firestore.collection(collectionName).get();
-      final properties = querySnapshot.docs
-          .map((doc) => doc.data() as Map<String, dynamic>)
-          .toList();
+      final properties = querySnapshot.docs.map((doc) => doc.data()).toList();
       printLog("Fetched properties: $properties");
       return properties;
     } catch (e) {

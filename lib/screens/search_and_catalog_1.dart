@@ -323,7 +323,7 @@ class _SearchAndCatalogState extends State<SearchAndCatalog> {
                               ),
                               const Text(
                                 " 4.9",
-                                style: const TextStyle(
+                                style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.w600,
                                   color: AppColors.black,
